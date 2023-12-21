@@ -1,16 +1,94 @@
-# quiz_app
+# Quizzy
 
-A new Flutter project.
+Quizzy is a dynamic quiz application developed using Flutter, offering an interactive experience for users to test their knowledge on various topics.
 
-## Getting Started
+## Table of Contents
 
-This project is a starting point for a Flutter application.
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Authentication](#authentication)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **User-Friendly Interface**: Quizzy boasts an intuitive and user-friendly interface that enhances the overall quiz-taking experience.
+- **Multiple Categories**: Users can choose from a variety of categories to tailor their quiz experience to their interests.
+- **Scoring and Results**: Receive instant feedback on your quiz performance, including a detailed score breakdown and correct/incorrect answers.
+- **Anonymous, Google, and Apple Authentication**: Quizzy now supports multiple authentication methods, including anonymous login, Google authentication, and Apple authentication, providing users with a seamless login experience.
+- **Persistent Data**: Quizzy stores user progress and preferences, allowing for seamless continuation across sessions.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+To run Quizzy on your local machine, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   https://github.com/itsamit108/quiz_app
+   ```
+2. Navigate to the project directory:
+
+   ```bash
+   cd quiz_app
+   ```
+3. Install dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+4. Run the app:
+
+   ```bash
+   flutter run
+   ```
+
+## Usage
+
+Once the app is running, you can:
+
+- Select a category for your quiz.
+- Start the quiz and answer the questions.
+- Review your score and correct answers at the end of the quiz.
+
+## Authentication
+
+Quizzy supports the following authentication methods:
+
+- **Anonymous Authentication**: Users can choose to participate in quizzes without creating an account.
+- **Google Authentication**: Users can log in using their Google accounts for a personalized experience.
+- **Apple Authentication**: Apple users can authenticate seamlessly with their Apple IDs.
+
+## Screenshots
+
+![Quizzy Screenshot 1](/assets/screenshots/screenshot1.jpg)
+_Caption for Screenshot 1_
+
+![Quizzy Screenshot 2](/assets/screenshots/screenshot2.jpg)
+_Caption for Screenshot 2_
+![Quizzy Screenshot 2](/assets/screenshots/screenshot3.jpg)
+_Caption for Screenshot 2_
+![Quizzy Screenshot 2](/assets/screenshots/screenshot4.jpg)
+_Caption for Screenshot 2_
+![Quizzy Screenshot 2](/assets/screenshots/screenshot5.jpg)
+_Caption for Screenshot 2_
+![Quizzy Screenshot 2](/assets/screenshots/screenshot6.jpg)
+_Caption for Screenshot 2_
+
+## Contributing
+
+We welcome contributions to Quizzy! To contribute:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-name`.
+3. Make your changes and commit them: `git commit -m 'Add new feature'`.
+4. Push to the branch: `git push origin feature-name`.
+5. Submit a pull request.
+
+## License
+
+Quizzy is open-source software licensed under the [MIT license](LICENSE).
+
+Feel free to explore and enhance Quizzy as you see fit. Happy quizzing!
