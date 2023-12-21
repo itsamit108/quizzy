@@ -29,16 +29,19 @@ To run Quizzy on your local machine, follow these steps:
    ```bash
    https://github.com/itsamit108/quiz_app
    ```
+
 2. Navigate to the project directory:
 
    ```bash
    cd quiz_app
    ```
+
 3. Install dependencies:
 
    ```bash
    flutter pub get
    ```
+
 4. Run the app:
 
    ```bash
@@ -63,19 +66,12 @@ Quizzy supports the following authentication methods:
 
 ## Screenshots
 
-![Quizzy Screenshot 1](/assets/screenshots/screenshot1.jpg)
-_Caption for Screenshot 1_
-
-![Quizzy Screenshot 2](/assets/screenshots/screenshot2.jpg)
-_Caption for Screenshot 2_
-![Quizzy Screenshot 2](/assets/screenshots/screenshot3.jpg)
-_Caption for Screenshot 2_
-![Quizzy Screenshot 2](/assets/screenshots/screenshot4.jpg)
-_Caption for Screenshot 2_
-![Quizzy Screenshot 2](/assets/screenshots/screenshot5.jpg)
-_Caption for Screenshot 2_
-![Quizzy Screenshot 2](/assets/screenshots/screenshot6.jpg)
-_Caption for Screenshot 2_
+<img src="assets/screenshots/screenshot1.jpg" alt="Quizzy Screenshot 1" width="50%"/>
+<img src="assets/screenshots/screenshot2.jpg" alt="Quizzy Screenshot 1" width="50%"/>
+<img src="assets/screenshots/screenshot3.jpg" alt="Quizzy Screenshot 1" width="50%"/>
+<img src="assets/screenshots/screenshot4.jpg" alt="Quizzy Screenshot 1" width="50%"/>
+<img src="assets/screenshots/screenshot5.jpg" alt="Quizzy Screenshot 1" width="50%"/>
+<img src="assets/screenshots/screenshot6.jpg" alt="Quizzy Screenshot 1" width="50%"/>
 
 ## Contributing
 
