@@ -27,13 +27,13 @@ To run Quizzy on your local machine, follow these steps:
 1. Clone the repository:
 
    ```bash
-   https://github.com/itsamit108/quiz_app
+   https://github.com/itsamit108/quizzy
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd quiz_app
+   cd quizzy
    ```
 
 3. Install dependencies:
