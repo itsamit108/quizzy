@@ -47,6 +47,9 @@ class FirestoreService {
       }
     };
 
-    return ref.set(data, SetOptions(merge: true));
+    return ref.set(
+      data,
+      SetOptions(merge: true),
+    );
   }
 }

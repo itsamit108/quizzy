@@ -8,7 +8,9 @@ import 'package:quiz_app/theme.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(const App());
+  runApp(
+    const App(),
+  );
 }
 
 class App extends StatefulWidget {
@@ -24,12 +26,16 @@ class _AppState extends State<App> {
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
-      // Initialize FlutterFire:
       future: _initialization,
       builder: (context, snapshot) {
-        // Check for errors
         if (snapshot.hasError) {
-          // Error screen
+          return MaterialApp(
+            home: Scaffold(
+              body: Center(
+                child: Text('Error: ${snapshot.error}'),
+              ),
+            ),
+          );
         }
 
         // Once complete, show your application
@@ -46,7 +52,10 @@ class _AppState extends State<App> {
         }
 
         // Otherwise, show something whilst waiting for initialization to complete
-        return const MaterialApp(home: LoadingScreen());
+        return const MaterialApp(
+          debugShowCheckedModeBanner: false,
+          home: LoadingScreen(),
+        );
       },
     );
   }
