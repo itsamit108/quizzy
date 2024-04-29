@@ -45,9 +45,10 @@ class _AppState extends State<App> {
             catchError: (_, err) => Report(),
             initialData: Report(),
             child: MaterialApp(
-                debugShowCheckedModeBanner: true,
-                routes: appRoutes,
-                theme: appTheme),
+              debugShowCheckedModeBanner: false,
+              routes: appRoutes,
+              theme: appTheme,
+            ),
           );
         }
 
