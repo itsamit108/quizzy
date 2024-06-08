@@ -33,7 +33,7 @@ To run Codio on your local machine, follow these steps:
 2. Navigate to the project directory:
 
    ```bash
-   cd Codio
+   cd codio
    ```
 
 3. Install dependencies:
