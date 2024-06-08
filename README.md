@@ -27,7 +27,7 @@ To run Codio on your local machine, follow these steps:
 1. Clone the repository:
 
    ```bash
-   https://github.com/itsamit108/Codio
+   https://github.com/itsamit108/codio
    ```
 
 2. Navigate to the project directory:
